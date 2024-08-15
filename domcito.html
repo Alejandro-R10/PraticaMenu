@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <meta charset="UFT-8"  >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Formulario de Capura </title>
+    <link rel="stylesheet" href="domcito.css" >
+   </head>
+
+   <body>
+     <script> src="domcito.js"  </script>
+     <div id="caja1" class="from-container" >
+     <h2> captura de Datos</h2>
+        <form name="fdatos">
+         <label for="name"></label>
+         <input type="text" id="name1"  name="name" required>
+
+         <label for="age">Edad:</label>
+         <input type="number" id="edada1" name="age" required min="0">
+         <input type="submit" value="enviar" onclick="calcular()">
+         <input type="radio"   name="sexo"  value="masculino" checked > masculino
+         <input type="radio" name="sexo" value="femenino"  > femenino
+          <br>
+
+        </form>
+    </div>
+   </body>
+</html>
